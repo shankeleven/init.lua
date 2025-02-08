@@ -6,6 +6,7 @@
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
 - different cursors for Normal , Insert and Relpace modes
 - removed the extras like caleb , cockpit and plenary from the original one
+- treesitter parses files upto 1mb large
 - works well with go
 - supports copilot auto completion
 
