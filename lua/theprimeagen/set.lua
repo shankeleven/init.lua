@@ -8,6 +8,11 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
+--vim.keymap.set('n', '<C-_>', ':lua CommentToggle()<CR>', { noremap = true, silent = true })
+--vim.keymap.set('v', '<C-_>', ':lua CommentToggle(true)<CR>', { noremap = true, silent = true })
+
+vim.g.netrw_localcopycmd = ''  -- Prevent netrw from using external commands for copy
+vim.g.netrw_use_xdg_open = 0   -- Avoid spawning external processes like xdg-open
 
 
 vim.opt.wrap = false
@@ -28,7 +33,25 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "110"
+-- asking to use the + register connected to system clipboard
+--vim.opt.clipboard = "unnamedplus"
+
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = "netrw",
+    callback = function()
+        vim.opt.clipboard = ""  -- Temporarily disable clipboard
+    end,
+})
+
+vim.api.nvim_create_autocmd("BufLeave", {
+    pattern = "*",
+    callback = function()
+        vim.opt.clipboard = "unnamedplus"  -- Re-enable clipboard
+    end,
+})
+
+
 
 vim.opt.guicursor = {
   "n-v-c:block",                -- Normal, Visual, and Command mode: block cursor
@@ -37,4 +60,9 @@ vim.opt.guicursor = {
   "o:hor50",                   -- Operator-pending mode: horizontal line (50% height)
   "sm:block-blinkwait175-blinkoff150-blinkon175", -- Select mode: blinking block
 }
+
+
+--vim.keymap.set('n', '<C-_>', ':lua CommentToggle()<CR>', { noremap = true, silent = true })
+--vim.keymap.set('v', '<C-_>', ':lua CommentToggle(true)<CR>', { noremap = true, silent = true })
+
 

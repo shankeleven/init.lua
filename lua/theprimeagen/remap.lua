@@ -67,6 +67,28 @@ vim.keymap.set(
     "oif err != nil {<CR>}<Esc>O.logger.Error(\"error\", \"error\", err)<Esc>F.;i"
 )
 
+-- Copy (Ctrl+C) in insert mode
+vim.api.nvim_set_keymap('i', '<C-c>', '<Esc>"+y', { noremap = true, silent = true })
+
+-- Paste (Ctrl+V) in insert mode
+vim.api.nvim_set_keymap('i', '<C-v>', '<C-r>+', { noremap = true, silent = true })
+
+-- Move line up (Alt+Up)
+vim.api.nvim_set_keymap('n', '<A-Up>', ':m .-2<CR>==', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<A-Up>', '<Esc>:m .-2<CR>==gi', { noremap = true, silent = true })
+
+-- Move line down (Alt+Down)
+vim.api.nvim_set_keymap('n', '<A-Down>', ':m .+1<CR>==', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<A-Down>', '<Esc>:m .+1<CR>==gi', { noremap = true, silent = true })
+
+-- Select All (Ctrl+A)
+vim.api.nvim_set_keymap('n', '<C-a>', 'ggVG', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<C-a>', '<Esc>ggVG', { noremap = true, silent = true })
+
+-- Cut (Ctrl+X)
+vim.api.nvim_set_keymap('n', '<C-x>', '"+dd', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<C-x>', '"+d', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<C-x>', '<Esc>"+dd', { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>");
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
