@@ -6,6 +6,8 @@
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
 - different cursors for Normal , Insert and Relpace modes
 - removed the extras like caleb , cockpit and plenary from the original one
+- works well with go
+- supports copilot auto completion
 
 Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that misbehave , I'd upload the corrected version someday.
 
