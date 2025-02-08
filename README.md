@@ -10,5 +10,13 @@
 - works well with go
 - supports copilot auto completion
 
-Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that misbehave , I'd upload the corrected version someday.
 
+
+- improved fuzzyfinder with preview parsing
+![alt text](image.png)
+
+
+
+
+
+Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that misbehave , I'd upload the corrected version someday.
