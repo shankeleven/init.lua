@@ -8,7 +8,7 @@
 - removed the extras like caleb , cockpit and plenary from the original one
 - treesitter parses files upto 1mb large
 - works well with go
-- supports copilot auto completion
+- supports copilot auto completion(solved problem of psuedo lsp attachement conflict to the buffer)
 
 
 
