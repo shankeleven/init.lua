@@ -3,7 +3,7 @@
 ## This is modified for my personal use but feel free to use it , it has following modifications
 - clipboard and yank in sync(solved the buffer sync during explorer)
 
-![Screenshot from 2025-02-11 05-21-16](https://github.com/user-attachments/assets/6580a746-98f4-4813-8fe2-7f421c755c3c)
+![Screenshot from 2025-02-11 05-20-03](https://github.com/user-attachments/assets/cbde3173-d7c8-4f09-bf3c-6c9ba1817d54)
 
 
 
