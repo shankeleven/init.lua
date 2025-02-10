@@ -2,6 +2,10 @@
 
 ## This is modified for my personal use but feel free to use it , it has following modifications
 - clipboard and yank in sync(solved the buffer sync during explorer)
+
+![alt text](image-1.png)
+
+
 - ctrl C , ctlr X ,ctrl V , ctrl A work as usual in insert mode(copy, cut , paste , select all respectively)
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
 - different cursors for Normal , Insert and Relpace modes
