@@ -5,14 +5,16 @@
 - ctrl C , ctlr X ,ctrl V , ctrl A work as usual in insert mode(copy, cut , paste , select all respectively)
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
 - different cursors for Normal , Insert and Relpace modes
-- removed the extras like caleb , cockpit and plenary from the original one
+- removed the extras like caleb , cockpit and streamer from the original one
 - treesitter parses files upto 1mb large
-- works well with go
+- works well with go and cpp , just run
+            ``````:TSInstall go cpp``````
 - supports copilot auto completion(solved problem of psuedo lsp attachement conflict to the buffer)
 
 
 
 - improved fuzzyfinder with preview parsing
+
 ![alt text](image.png)
 
 
