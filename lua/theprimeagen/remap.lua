@@ -73,6 +73,15 @@ vim.api.nvim_set_keymap('i', '<C-c>', '<Esc>"+y', { noremap = true, silent = tru
 -- Paste (Ctrl+V) in insert mode
 vim.api.nvim_set_keymap('i', '<C-v>', '<C-r>+', { noremap = true, silent = true })
 
+--vertical split and terminal
+-- vim.api.nvim_set_keymap('i', '<>', '<C-r>+', { noremap = true, silent = true })
+--nnoremap <Leader>t :vsp | terminal<CR>
+--vim.api.nvim_set_keymap('n', '<leader>t', ':vsp | terminal<CR>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal<CR><C-w>L<C-w>w', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>t', ':rightbelow vsp | terminal<CR>', { noremap = true, silent = true })
+
+
+
 -- Move line up (Alt+Up)
 vim.api.nvim_set_keymap('n', '<A-Up>', ':m .-2<CR>==', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', '<A-Up>', '<Esc>:m .-2<CR>==gi', { noremap = true, silent = true })
