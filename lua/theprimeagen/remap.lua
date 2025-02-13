@@ -19,6 +19,12 @@ vim.keymap.set("n", "<leader>svwm", function()
     require("vim-with-me").StopVimWithMe()
 end)
 
+-- harpoon specific
+--vim.keymap.set("n", '<leader>1', ':echo "Leader 1"<CR>')
+-- vim.keymap.set("n", '<leader><C-1>', ':echo "Leader Ctrl-1"<CR>')
+
+
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
@@ -78,7 +84,7 @@ vim.api.nvim_set_keymap('i', '<C-v>', '<C-r>+', { noremap = true, silent = true 
 --nnoremap <Leader>t :vsp | terminal<CR>
 --vim.api.nvim_set_keymap('n', '<leader>t', ':vsp | terminal<CR>', { noremap = true, silent = true })
 --vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal<CR><C-w>L<C-w>w', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>t', ':rightbelow vsp | terminal<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal', { noremap = true, silent = true })
 
 
 
