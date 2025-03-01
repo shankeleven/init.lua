@@ -84,7 +84,7 @@ vim.api.nvim_set_keymap('i', '<C-v>', '<C-r>+', { noremap = true, silent = true 
 --nnoremap <Leader>t :vsp | terminal<CR>
 --vim.api.nvim_set_keymap('n', '<leader>t', ':vsp | terminal<CR>', { noremap = true, silent = true })
 --vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal<CR><C-w>L<C-w>w', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>t', ':vsp | terminal<CR>', { noremap = true, silent = true })
 
 
 
