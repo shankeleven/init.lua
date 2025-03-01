@@ -76,6 +76,9 @@ vim.keymap.set(
 -- Copy (Ctrl+C) in insert mode
 vim.api.nvim_set_keymap('i', '<C-c>', '<Esc>"+y', { noremap = true, silent = true })
 
+-- add the ud command to use UndotreeToggle
+vim.api.nvim_create_user_command("Ud", "UndotreeToggle", {})
+
 -- Paste (Ctrl+V) in insert mode
 vim.api.nvim_set_keymap('i', '<C-v>', '<C-r>+', { noremap = true, silent = true })
 
