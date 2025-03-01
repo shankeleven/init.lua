@@ -20,10 +20,12 @@ local local_plugins = {
             vim.keymap.set("n", "<leader>2", function() harpoon:list():select(2) end)
             vim.keymap.set("n", "<leader>3", function() harpoon:list():select(3) end)
             vim.keymap.set("n", "<leader>4", function() harpoon:list():select(4) end)
-            vim.keymap.set("n", "<leader>q", function() harpoon:list():replace_at(1) end)
-            vim.keymap.set("n", "<leader>w", function() harpoon:list():replace_at(2) end)
-            vim.keymap.set("n", "<leader>e", function() harpoon:list():replace_at(3) end)
-            vim.keymap.set("n", "<leader>r", function() harpoon:list():replace_at(4) end)
+            vim.keymap.set("n", "<leader>5", function() harpoon:list():select(5) end)
+            vim.keymap.set("n", "<leader><C-q>", function() harpoon:list():replace_at(1) end)
+            vim.keymap.set("n", "<leader><C-w>", function() harpoon:list():replace_at(2) end)
+            vim.keymap.set("n", "<leader><C-e>", function() harpoon:list():replace_at(3) end)
+            vim.keymap.set("n", "<leader><C-r>", function() harpoon:list():replace_at(4) end)
+            vim.keymap.set("n", "<leader><C-t>", function() harpoon:list():replace_at(5) end)
         end
     },
 }
