@@ -13,8 +13,7 @@
 - treesitter parses files upto 1mb large
 - works well with go and cpp , just run
             ``````:TSInstall go cpp``````
-- works well with go and cpp , just run
-            ``````:TSInstall go cpp``````
+- comments out the line with ctrl + / in normal and visual mode
 - supports copilot auto completion(solved problem of psuedo lsp attachement conflict to the buffer)
 
 
