@@ -3,7 +3,7 @@
 ## This is modified for my personal use but feel free to use it , it has following modifications
 - clipboard and yank in sync(solved the buffer sync during explorer)
 
-![alt text](<Screenshot from 2025-02-09 02-00-48.png>)
+![alt text](<Screenshot from 2025-02-11 05-21-16.png>)
 
 - ctrl C , ctlr X ,ctrl V , ctrl A work as usual in insert mode(copy, cut , paste , select all respectively)
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
@@ -20,7 +20,7 @@
 
 - improved fuzzyfinder with preview parsing
 
-![alt text](<Screenshot from 2025-02-11 05-21-16.png>)
+![alt text](<Screenshot from 2025-02-09 02-00-48.png>)
 
 
 
