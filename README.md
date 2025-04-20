@@ -26,3 +26,11 @@
 
 
 Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that misbehave , I'd upload the corrected version someday.
+
+Useful commands:
+:TSInstall <language> - to install treesitter parsers
+:TSUpdate - to update treesitter parsers
+:TSUninstall <language> - to uninstall treesitter parsers
+:Mason - to install packages
+:Lazy sync - to install plugins
+:Lazy update - to update plugins
