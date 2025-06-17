@@ -25,12 +25,23 @@
 
 
 
+- Harpoon file addition and removal made more intuitive , using ctrl with Q W E R T Y to add at 1,2,3,4,5 respectively
+
+![image](https://github.com/user-attachments/assets/c0069969-7fda-4c87-a307-0499771e7ce2)
+ 
+
+
+
 Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that misbehave , I'd upload the corrected version someday.
 
-Useful commands:
-:TSInstall <language> - to install treesitter parsers
-:TSUpdate - to update treesitter parsers
-:TSUninstall <language> - to uninstall treesitter parsers
-:Mason - to install packages
-:Lazy sync - to install plugins
-:Lazy update - to update plugins
+### Useful commands:
+- `:TSInstall` <language> - to install treesitter parsers
+- `:TSUpdate` - to update treesitter parsers
+- `:TSUninstall <language>` - to uninstall treesitter parsers
+- `:Mason` - to install packages
+- `:Lazy sync` - to install plugins
+- `:Lazy update` - to update plugins
+
+
+
+
