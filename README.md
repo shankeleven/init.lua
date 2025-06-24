@@ -7,7 +7,7 @@
 
 - ctrl C , ctlr X ,ctrl V , ctrl A work as usual in insert mode(copy, cut , paste , select all respectively)
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
-- markdown preview
+- markdown preview [`:MarkdownPreview`]
 - different cursors for Normal , Insert and Relpace modes
 - removed the extras like caleb , cockpit and streamer from the original one
 - removed the extras like caleb , cockpit and streamer from the original one
