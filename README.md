@@ -8,6 +8,11 @@
 - ctrl C , ctlr X ,ctrl V , ctrl A work as usual in insert mode(copy, cut , paste , select all respectively)
 - alt + arrow keys to move lines up and down (to recreate VS code vibes)
 - markdown preview [`:MarkdownPreview`]
+- added support for ClaudeCode [`:ClaudeCode`] (Prerequisite : `bun install -g @anthropic-ai/claude-code@1.0.27`)
+
+![image](https://github.com/user-attachments/assets/882efa83-b759-47a4-a473-71d37759dd8d)
+
+ 
 - different cursors for Normal , Insert and Relpace modes
 - removed the extras like caleb , cockpit and streamer from the original one
 - removed the extras like caleb , cockpit and streamer from the original one
