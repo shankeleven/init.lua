@@ -13,6 +13,7 @@ require("theprimeagen.lazy_init")
 -- DO NOT INCLUDE THIS
 -- DO.not
 
+-- vim.cmd([[command! -bang -nargs=* mdn MarkdownPreview<bang>]])
 local augroup = vim.api.nvim_create_augroup
 local ThePrimeagenGroup = augroup('ThePrimeagen', {})
 
