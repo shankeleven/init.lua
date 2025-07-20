@@ -76,6 +76,8 @@ autocmd('LspAttach', {
         vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
         vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end, opts)
         vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts)
+
+        -- vim.keymap.set("n", "<leader>t", ":term<CR>", { noremap = true, silent = true }) -- terminal
     end
 })
 

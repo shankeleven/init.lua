@@ -99,6 +99,10 @@ return {
 
         vim.diagnostic.config({
             -- update_in_insert = true,
+            virtual_text = {
+                prefix = " ", -- Could be '●', '▎', 'x'
+                spacing = 4,
+            },
             float = {
                 focusable = false,
                 style = "minimal",
