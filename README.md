@@ -22,7 +22,7 @@
 - comments out the line with ctrl + / in normal and visual mode
 - supports copilot auto completion(solved problem of psuedo lsp attachement conflict to the buffer)
 - horizontal scroll with ctrl+l(right) and ctrl+h(left) in normal mode
-
+- :e for nested files creation
 
 
 - improved fuzzyfinder with preview parsing
