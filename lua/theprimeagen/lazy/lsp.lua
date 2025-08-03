@@ -36,7 +36,7 @@ return {
                 "gopls",
                 "clangd",
                 "zls",
-                "tsserver",
+                "ts_ls",
                 "html",
                 "cssls",
                 "jsonls",
