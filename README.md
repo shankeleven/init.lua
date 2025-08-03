@@ -1,4 +1,4 @@
-### this is a fork from the famous rc - ThePrimeagen's init.lua
+### this is a fork from the famous rc - ThePrimeagen's init.lua , but ofc this one is BETTER!
 
 ## This is modified for my personal use but feel free to use it , it has following modifications
 - clipboard and yank in sync(solved the buffer sync during explorer)
@@ -19,6 +19,7 @@
 - treesitter parses files upto 1mb large
 - works well with go and cpp , just run
             ``````:TSInstall go cpp``````
+- added debug adapter
 - comments out the line with ctrl + / in normal and visual mode
 - supports copilot auto completion(solved problem of psuedo lsp attachement conflict to the buffer)
 - horizontal scroll with ctrl+l(right) and ctrl+h(left) in normal mode
