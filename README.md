@@ -50,6 +50,7 @@ Link to harpoon-2(side branch) as Harpoon(master branch) has some functions that
 - `:Mason` - to install packages
 - `:Lazy sync` - to install plugins
 - `:Lazy update` - to update plugins
+- `:Copilot disable` - to update plugins
 
 
 
